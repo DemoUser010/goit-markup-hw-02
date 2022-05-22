@@ -1,0 +1,134 @@
+:root {
+    --font:'Roboto', sans-serif;
+    --main-color:#000000;
+    --secondary-color:#2196F3;
+    --additional-info:#757575;
+    --main-info:#FFFFFF;
+    --heading:#212121;
+}
+
+.header {
+    padding: 32px 215px 32px 215px;
+}
+.span {
+    color: var(--secondary-color);
+}
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    margin-right: 93px;
+    line-height: 31px;
+    text-decoration: none;
+    color:var(--main-color);
+}
+.navigation-link {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 50px;
+    line-height: 16px;
+    color: var(--main-color);
+    text-decoration: none;
+
+}
+.navigation-link:hover,
+:focus{
+    color: var(--secondary-color);
+}
+
+.contacts-info {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 50px;
+    line-height: 16px;
+    text-decoration: none;
+    color: var(--additional-info);
+}
+.contacts-info:hover,:focus{
+    color: var(--secondary-color);
+}
+.filters {
+    margin: 94px 494px 34px 495px;
+}
+.pointer {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--heading);
+    margin-right: 8px;
+}
+.pointer:hover,:focus{
+    background-color: var(--secondary-color);
+    color: var(--main-info);
+
+}
+.work-example {
+    margin: 34px 30px 94px 30px;
+}
+.img-list {
+    width: 370px;
+    height: 404px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 94px;
+    
+}
+.projects {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+    color: var(--heading);
+}
+.description {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--additional-info);
+    text-align: left;
+}
+.footer-container {
+    background: #2F303A;
+
+        }
+.logo-footer {
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    margin-left: 215px;
+    text-decoration: none;
+    color:var(--main-info);
+}
+
+.street {
+    font-family:  var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--main-info);
+    margin-left: 215px;
+}
+
+.address-information {
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    display:flex;
+    margin-left: 215px;
+}
